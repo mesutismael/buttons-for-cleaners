@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/drawer_header_general">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_logOut"
+                android:title="@string/drawer_log_out"
+                android:icon="@drawable/ic_log_out"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="@string/drawer_header_synchronisation">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_synchronised"
+                android:title="@string/drawer_synchronised"
+                android:enabled="false"
+                android:checked="true"/>
+
+            <item
+                android:id="@+id/action_not_synchronised"
+                android:title="@string/drawer_not_synchronised"
+                android:enabled="false"
+                android:checked="false"/>
+
+            <item
+                android:id="@+id/action_sync"
+                android:title="@string/drawer_sync"
+                android:icon="@drawable/ic_sync"/>
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buttons for Cleaners</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Sluit</string>
+    <string name="drawer_info">Info</string>
+    <string name="drawer_log_out">Afmelden</string>
+    <string name="drawer_synchronised">Alles is gesynchroniseerd</string>
+    <string name="drawer_not_synchronised">Niet alles is gesynchroniseerd</string>
+    <string name="drawer_sync">Synchroniseer</string>
+    <string name="drawer_header_general">Algemeen</string>
+    <string name="drawer_header_synchronisation">Synchronisatie</string>
+
+    <string name="dialog_error">Fout</string>
+    <string name="dialog_warning">Waarschuwing</string>
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Annuleer</string>
+
+    <string name="login_api_error">Onmogelijk om de producten te downloaden.</string>
+    <string name="login_incomplete_error">Voer een waarde in voor alle velden.</string>
+    <string name="login_login_error">Onmogelijk om aan te melden.</string>
+    <string name="login_domain_hint">Domeinnaam</string>
+    <string name="login_username_hint">Gebruikersnaam</string>
+    <string name="login_password_hint">Wachtwoord</string>
+    <string name="login_action">Aanmelden</string>
+    <string name="login_progress">Wij melden jou aan&#8230;</string>
+
+    <string name="text_settings_title">Tekst formaat</string>
+    <string name="text_settings_message">Als je gebruik maakt van deze app in een auto, kan het nuttig zijn om de tekst van jouw apparaat te wijzigen naar een grotere tekst. Je kan deze optie in de instellingen aanpassen, door te klikken op de onderstaande knop.</string>
+    <string name="text_settings_action">Instellingen</string>
+    <string name="text_settings_skip">Ga door</string>
+
+    <string name="permission_location_title">Locatie</string>
+    <string name="permission_location_message">Deze app maakt gebruik van jouw locatie om de afstand te berekenen naar jouw uitvoeringsadressen. Je dient dus in de omgeving van jouw bestemming te zijn om op START te kunnen duwen.</string>
+    <string name="permission_location_show_permission">Toon toestemming</string>
+    <string name="permission_location_declined_title">Locatie</string>
+    <string name="permission_location_declined_message">Jouw toestemming om je locatie te gebruiken is vereist. Activeer dit in de instellingen.</string>
+    <string name="permission_location_declined_positive">Instellingen</string>
+
+    <string name="planning_list_item_time">%1$s - %2$s</string>
+    <string name="planning_list_warning_title">Waarschuwing</string>
+    <string name="planning_list_warning_message">Deze opdracht werd nog niet gesynchroniseerd.</string>
+    <string name="planning_list_item_distance">%1$.1f km</string>
+    <string name="planning_list_empty">Geen planning beschikbaar.</string>
+
+    <string name="main_connection">Verbinding</string>
+    <string name="main_connection_dialog_title">Verbinding</string>
+    <string name="main_connection_dialog_message">Er is geen verbinding. De planning kan niet worden bijgewerkt en registratie kan niet verzonden worden.</string>
+    <string name="main_log_out_sync">Niet alle registraties werden verzonden. Als je nu afmeldt, zullen alle gegevens verloren zijn.</string>
+    <string name="main_log_out_positive">Afmelden</string>
+    <string name="main_log_out_progress">Wij melden jou af&#8230;</string>
+
+    <string name="detail_time_header">Tijd</string>
+    <string name="detail_time_date">Datum</string>
+    <string name="detail_time_start">Startuur</string>
+    <string name="detail_time_end">Einduur</string>
+    <string name="detail_time_notify">Verwittig jouw klant</string>
+    <string name="detail_general_header">Algemene informatie</string>
+    <string name="detail_general_description">Omschrijving</string>
+    <string name="detail_general_address">Uitvoeringsadres</string>
+    <string name="detail_general_route">Start Routebeschrijving</string>
+    <string name="detail_remarks_header">Opmerkingen</string>
+    <string name="detail_remarks_instructions">Werkinstructies</string>
+    <string name="detail_people_header">Werknemers</string>
+    <string name="detail_vehicles_header">Voertuigen</string>
+    <string name="detail_materials_header">Materialen</string>
+    <string name="detail_extra_header">Extra</string>
+    <string name="detail_products_header">Producten</string>
+    <string name="detail_start">Start</string>
+    <string name="detail_stop">Stop</string>
+    <string name="detail_navigate_error">Google maps is niet geïnstalleerd op dit toestel.</string>
+    <string name="detail_notify_progress">Wij verwittigen jouw klant&#8230;</string>
+    <string name="detail_notify_success">Jouw klant werd verwittigd!</string>
+    <string name="detail_notify_error">De klant kon niet verwittigd worden.</string>
+    <string name="detail_proximity_error">Je kan alleen maar starten van zodra je op jouw bestemming bent. Zorg ervoor dat jouw GPS-functie werkt en dat je dicht genoeg bij je bestemming bent.</string>
+
+    <string name="feedback_activity_label">Registratie</string>
+    <string name="feedback_previous">Vorige</string>
+    <string name="feedback_next">Volgende</string>
+    <string name="feedback_next_error">Geef antwoord op de vraag.</string>
+    <string name="feedback_finish">Klaar</string>
+    <string name="feedback_progress">Vraag %1$d/%2$d</string>
+    <string name="feedback_text_hint">Antwoord</string>
+    <string name="feedback_boolean_true">Ja</string>
+    <string name="feedback_boolean_false">Nee</string>
+    <string name="feedback_photo_error_storage">Wij kunnen de camera niet starten wegens gebrek aan geheugen.</string>
+    <string name="feedback_photo_error_no_app">Er is geen camera-app geïnstalleerd.</string>
+    <string name="feedback_product_add">Voeg een product toe</string>
+    <string name="feedback_product_amount_title">Bewerk hoeveelheid</string>
+    <string name="feedback_product_amount_hint">Hoeveelheid</string>
+    <string name="feedback_back_warning">Jouw registratie was niet volledig. Elk gegeven antwoord zal verloren gaan. Ben je zeker dat je dit venster wil sluiten?</string>
+
+    <string name="product_category_specific">Specifieke producten</string>
+    <string name="product_amount_title">Voer de hoeveelheid in</string>
+    <string name="product_amount_hint">Hoeveelheid</string>
+    <string name="product_amount_increase">+</string>
+    <string name="product_amount_decrease">-</string>
+
+</resources>

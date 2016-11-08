@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <be.appreciate.buttonsforcleaners.views.NonSwipingViewPager
+        android:id="@+id/viewPager_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/feedback_bottom_bar"
+        android:padding="@dimen/general_fragment_padding"
+        android:gravity="center_vertical">
+
+        <be.appreciate.buttonsforcleaners.views.Button
+            android:id="@+id/button_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_previous"
+            style="@style/Bfc.Button.Inline.Subtle"/>
+
+        <be.appreciate.buttonsforcleaners.views.RadiusCirclePageIndicator
+            android:id="@+id/indicator_feedback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:fillColor="@color/feedback_indicator_fill"
+            app:pageColor="@color/feedback_indicator_page"
+            app:radius="@dimen/feedback_indicator_fill_radius"
+            app:pageRadius="@dimen/feedback_indicator_page_radius"
+            app:strokeWidth="@dimen/feedback_indicator_stroke"
+            app:centered="true"/>
+
+        <be.appreciate.buttonsforcleaners.views.Button
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_next"
+            style="@style/Bfc.Button.Inline.Subtle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

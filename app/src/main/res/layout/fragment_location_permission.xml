@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/location_permission_background"/>
+
+    <be.appreciate.buttonsforcleaners.views.BoundedLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/location_permission_content_padding"
+        android:paddingTop="@dimen/location_permission_content_padding"
+        android:paddingRight="@dimen/location_permission_content_padding"
+        app:boundedWidth="@dimen/general_content_max_width">
+
+        <be.appreciate.buttonsforcleaners.views.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/permission_location_title"
+            style="@style/Bfc.TextView.Title"/>
+
+        <be.appreciate.buttonsforcleaners.views.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/permission_location_message"
+            style="@style/Bfc.TextView.Body"/>
+
+        <be.appreciate.buttonsforcleaners.views.Button
+            android:id="@+id/button_showPermission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/permission_location_show_permission"
+            android:layout_marginTop="@dimen/location_permission_button_margin_top"
+            android:layout_marginBottom="@dimen/location_permission_content_padding"/>
+
+    </be.appreciate.buttonsforcleaners.views.BoundedLinearLayout>
+
+</LinearLayout>

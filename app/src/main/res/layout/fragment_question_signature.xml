@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <be.appreciate.buttonsforcleaners.views.BoundedLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/general_fragment_padding"
+        android:gravity="center_horizontal"
+        app:boundedWidth="@dimen/general_content_max_width">
+
+        <be.appreciate.buttonsforcleaners.views.TextView
+            android:id="@+id/textView_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Vraag 1/3"
+            style="@style/Bfc.TextView.Caption"/>
+
+        <be.appreciate.buttonsforcleaners.views.TextView
+            android:id="@+id/textView_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Zet hier je handtekening."
+            style="@style/Bfc.TextView.Title"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <be.appreciate.buttonsforcleaners.views.SignatureView
+                android:id="@+id/signatureView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_signature_background"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imageView_reset"
+                android:layout_width="@dimen/feedback_signature_reset"
+                android:layout_height="@dimen/feedback_signature_reset"
+                android:padding="@dimen/feedback_signature_reset_padding"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/ic_delete"/>
+
+        </RelativeLayout>
+
+    </be.appreciate.buttonsforcleaners.views.BoundedLinearLayout>
+
+</LinearLayout>

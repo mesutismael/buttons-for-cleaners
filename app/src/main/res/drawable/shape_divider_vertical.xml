@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:left="@dimen/general_fragment_padding">
+
+        <shape>
+
+            <size
+                android:height="@dimen/general_divider"/>
+
+            <solid
+                android:color="@color/general_divider"/>
+
+        </shape>
+
+    </item>
+
+</layer-list>

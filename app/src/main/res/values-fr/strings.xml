@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buttons for Cleaners</string>
+
+    <string name="drawer_open">Ouvrir</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="drawer_info">Contacter</string>
+    <string name="drawer_log_out">Déconnecter</string>
+    <string name="drawer_synchronised">Synchronisation réussie</string>
+    <string name="drawer_not_synchronised">Synchronisation non réussie</string>
+    <string name="drawer_sync">Synchroniser</string>
+    <string name="drawer_header_general">Général</string>
+    <string name="drawer_header_synchronisation">Synchronisation</string>
+
+    <string name="dialog_error">Erreur</string>
+    <string name="dialog_warning">Avertissement</string>
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Annuler</string>
+
+    <string name="login_api_error">Impossible de télécharger les produits.</string>
+    <string name="login_incomplete_error">Entrer une valeur pour tous les domaines.</string>
+    <string name="login_login_error">Impossible de se connecter.</string>
+    <string name="login_domain_hint">Nom de domaine</string>
+    <string name="login_username_hint">Nom d\'utilisateur</string>
+    <string name="login_password_hint">Mot de passe</string>
+    <string name="login_action">Se connecter</string>
+    <string name="login_progress">Nous vous connectons&#8230;</string>
+
+    <string name="text_settings_title">Format texte</string>
+    <string name="text_settings_message">Si vous utilisez cette application dans une voiture, ça pourrait être utile de modifier le texte de votre appareil au texte plus grand. Vous pouvez trouver cette option dans les paramètres, en cliquant sur le bouton ci-dessous.</string>
+    <string name="text_settings_action">Paramètres</string>
+    <string name="text_settings_skip">Continuer</string>
+
+    <string name="permission_location_title">Emplacement</string>
+    <string name="permission_location_message">Cette application utilise votre emplacement pour calculer la distance de vos addresses d\'exécutions. Parfois, il est également nécessaire d\'être en proximité de votre addresse pour pousser sur le bouton démarrer.</string>
+    <string name="permission_location_show_permission">Montrer permission</string>
+    <string name="permission_location_declined_title">Emplacement</string>
+    <string name="permission_location_declined_message">L\'autorisation d\'utiliser votre position est nécessaire. Activer aux paramètres.</string>
+    <string name="permission_location_declined_positive">Paramètres</string>
+
+    <string name="planning_list_item_time">%1$s - %2$s</string>
+    <string name="planning_list_warning_title">Avertissement</string>
+    <string name="planning_list_warning_message">Cet article n\'a pas encore été synchronisé.</string>
+    <string name="planning_list_item_distance">%1$.1f km</string>
+    <string name="planning_list_empty">Aucun planning disponible</string>
+
+    <string name="main_connection">Connexion</string>
+    <string name="main_connection_dialog_title">Connexion</string>
+    <string name="main_connection_dialog_message">Il n\'y a pas de connexion. Le planning ne peut pas être mis à jour et les régistrations ne peuvent pas être envoyés.</string>
+    <string name="main_log_out_sync">Pas tout commentaire a été envoyé. Si vous vous déconnectez maintenant, toutes les données seront perdues.</string>
+    <string name="main_log_out_positive">Se déconnecter</string>
+    <string name="main_log_out_progress">Nous vous déconnectons&#8230;</string>
+
+    <string name="detail_time_header">Temps</string>
+    <string name="detail_time_date">Date</string>
+    <string name="detail_time_start">Heure de départ</string>
+    <string name="detail_time_end">Heure d\'arrêt</string>
+    <string name="detail_time_notify">Prevenez votre client</string>
+    <string name="detail_general_header">Informations Générales</string>
+    <string name="detail_general_description">Descriptions</string>
+    <string name="detail_general_address">Addresse d\'exécution</string>
+    <string name="detail_general_route">Démarrer la navigation</string>
+    <string name="detail_remarks_header">Remarques</string>
+    <string name="detail_remarks_instructions">Instructions</string>
+    <string name="detail_people_header">Employés</string>
+    <string name="detail_vehicles_header">Véhicules</string>
+    <string name="detail_materials_header">Matériaux</string>
+    <string name="detail_extra_header">Extra</string>
+    <string name="detail_products_header">Produits</string>
+    <string name="detail_start">Démarrer</string>
+    <string name="detail_stop">Arrêter</string>
+    <string name="detail_navigate_error">Google maps n\'est pas installé sur cet appareil</string>
+    <string name="detail_notify_progress">Nous prévenons votre client &#8230;</string>
+    <string name="detail_notify_success">Prévenu!</string>
+    <string name="detail_notify_error">Le client ne pourrais pas être prévenu.</string>
+    <string name="detail_proximity_error">Vous ne pouvez pas démarrer cette tâche lorsque vous êtes proche de la destination. Assurez-vous que votre GPS est activé et que vous êtes près de votre destination.</string>
+
+    <string name="feedback_activity_label">Régistrations</string>
+    <string name="feedback_previous">Précédent</string>
+    <string name="feedback_next">Suivant</string>
+    <string name="feedback_next_error">Répondre à la question.</string>
+    <string name="feedback_finish">Prêt</string>
+    <string name="feedback_progress">Question %1$d/%2$d</string>
+    <string name="feedback_text_hint">Répondre</string>
+    <string name="feedback_boolean_true">Oui</string>
+    <string name="feedback_boolean_false">Non</string>
+    <string name="feedback_photo_error_storage">Impossible de démarrer le caméra car il n\'y a pas de mémoire.</string>
+    <string name="feedback_photo_error_no_app">Il y a aucune app pour caméra installée.</string>
+    <string name="feedback_product_add">Ajouter un produit</string>
+    <string name="feedback_product_amount_title">Modifier la quantité</string>
+    <string name="feedback_product_amount_hint">Quantité</string>
+    <string name="feedback_back_warning">Vous avez pas terminé la régistration. Toutes les réponses que vous avez donné seront perdues. Etes-vous sûr que vous voulez fermer cet écran?</string>
+
+    <string name="product_category_specific">Produits spécifiques</string>
+    <string name="product_amount_title">Entrer la quantité</string>
+    <string name="product_amount_hint">Quantité</string>
+    <string name="product_amount_increase">+</string>
+    <string name="product_amount_decrease">-</string>
+
+</resources>

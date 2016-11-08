@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="tablet">false</bool>
+
+    <string name="login_domain_suffix" translatable="false">.buttonsforcleaners.com</string>
+
+    <string name="navigation_uri" translatable="false">google.navigation:q=%1$s,%2$s</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageView_add"
+    android:layout_width="@dimen/feedback_photo"
+    android:layout_height="@dimen/feedback_photo"
+    android:background="@drawable/selector_button"
+    android:scaleType="centerInside"
+    app:srcCompat="@drawable/ic_add_large"/>

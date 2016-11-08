@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buttons for Cleaners</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_info">Contact</string>
+    <string name="drawer_log_out">Log out</string>
+    <string name="drawer_synchronised">Everything is synchronised</string>
+    <string name="drawer_not_synchronised">Not everything is synchronised</string>
+    <string name="drawer_sync">Synchronise</string>
+    <string name="drawer_header_general">General</string>
+    <string name="drawer_header_synchronisation">Synchronisation</string>
+
+    <string name="dialog_error">Error</string>
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Cancel</string>
+
+    <string name="login_api_error">Unable to download the products.</string>
+    <string name="login_incomplete_error">Enter a value for all fields.</string>
+    <string name="login_login_error">Unable to log in.</string>
+    <string name="login_domain_hint">Domain</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_action">Log in</string>
+    <string name="login_progress">Logging in&#8230;</string>
+
+    <string name="text_settings_title">Text size</string>
+    <string name="text_settings_message">If you are using this app in a car, it can be useful to change the text of your device to large text. You can find this option in the settings, by clicking the button below.</string>
+    <string name="text_settings_action">Settings</string>
+    <string name="text_settings_skip">Continue</string>
+
+    <string name="permission_location_title">Location</string>
+    <string name="permission_location_message">This app uses your location to calculate the distance to the places you need to go. Sometimes it is also required to be in the proximity of a certain place to be able to press the start button.</string>
+    <string name="permission_location_show_permission">Show permission</string>
+    <string name="permission_location_declined_title">Location</string>
+    <string name="permission_location_declined_message">Permission to use your location is required. Turn it on the settings.</string>
+    <string name="permission_location_declined_positive">Settings</string>
+
+    <string name="planning_list_item_time">%1$s - %2$s</string>
+    <string name="planning_list_warning_title">Warning</string>
+    <string name="planning_list_warning_message">This item has not been synchronised yet.</string>
+    <string name="planning_list_item_distance">%1$.1f km</string>
+    <string name="planning_list_empty">No planning available.</string>
+
+    <string name="main_connection">Connection</string>
+    <string name="main_connection_dialog_title">Connection</string>
+    <string name="main_connection_dialog_message">There is no connection. The planning can\'t be updated and the feedback can\'t be sent.</string>
+    <string name="main_log_out_sync">Not all feedback has been sent. If you log out now, all data will be lost.</string>
+    <string name="main_log_out_positive">Log out</string>
+    <string name="main_log_out_progress">Logging out&#8230;</string>
+
+    <string name="detail_time_header">Time</string>
+    <string name="detail_time_date">Date</string>
+    <string name="detail_time_start">Start time</string>
+    <string name="detail_time_end">End time</string>
+    <string name="detail_time_notify">Notify customer</string>
+    <string name="detail_general_header">General information</string>
+    <string name="detail_general_description">Description</string>
+    <string name="detail_general_address">Execution address</string>
+    <string name="detail_general_route">Start navigation</string>
+    <string name="detail_remarks_header">Remarks</string>
+    <string name="detail_remarks_instructions">Instructions</string>
+    <string name="detail_people_header">Employees</string>
+    <string name="detail_vehicles_header">Vehicles</string>
+    <string name="detail_materials_header">Materials</string>
+    <string name="detail_extra_header">Extra</string>
+    <string name="detail_products_header">Products</string>
+    <string name="detail_start">Start assignment</string>
+    <string name="detail_stop">Stop assignment</string>
+    <string name="detail_navigate_error">Google maps is not installed on this device</string>
+    <string name="detail_notify_progress">Notifying customer&#8230;</string>
+    <string name="detail_notify_success">Notified!</string>
+    <string name="detail_notify_error">The customer could not be notified</string>
+    <string name="detail_proximity_error">You can only start this task when you are close to the destination. Make sure your gps is enabled and you are close to your destination.</string>
+
+    <string name="feedback_activity_label">Feedback</string>
+    <string name="feedback_previous">Previous</string>
+    <string name="feedback_next">Next</string>
+    <string name="feedback_next_error">Answer the question.</string>
+    <string name="feedback_finish">Finish</string>
+    <string name="feedback_progress">Question %1$d/%2$d</string>
+    <string name="feedback_text_hint">Answer</string>
+    <string name="feedback_boolean_true">Yes</string>
+    <string name="feedback_boolean_false">No</string>
+    <string name="feedback_photo_error_storage">Unable to start the camera because there is no storage.</string>
+    <string name="feedback_photo_error_no_app">There is no camera app installed.</string>
+    <string name="feedback_product_add">Add product</string>
+    <string name="feedback_product_amount_title">Edit the quantity</string>
+    <string name="feedback_product_amount_hint">Quantity</string>
+    <string name="feedback_back_warning">You have not completed the feedback. Any answers you entered will be lost. Are you sure you want to close this screen?</string>
+
+    <string name="product_category_specific">Specific products</string>
+    <string name="product_amount_title">Enter the quantity</string>
+    <string name="product_amount_hint">Quantity</string>
+    <string name="product_amount_increase">+</string>
+    <string name="product_amount_decrease">-</string>
+
+</resources>

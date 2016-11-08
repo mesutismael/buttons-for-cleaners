@@ -1,0 +1,11 @@
+Buttons for Cleaners release keystore
+-------------------------------------
+
+Key store password
+buttonsforcleaners
+
+Key alias
+buttonsforcleaners
+
+Key password
+buttonsforcleaners

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/md_dialog_frame_margin"
+    android:paddingRight="@dimen/md_dialog_frame_margin"
+    android:paddingTop="@dimen/md_content_padding_top"
+    android:paddingBottom="@dimen/md_content_padding_bottom">
+
+    <be.appreciate.buttonsforcleaners.views.TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/md_content_textsize"
+        android:layout_marginBottom="@dimen/md_content_padding_bottom"
+        android:layout_gravity="center_horizontal"
+        tools:text="Message"
+        tools:ignore="UnusedAttribute"
+        style="@style/Bfc.TextView.Body"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <be.appreciate.buttonsforcleaners.views.Button
+            android:id="@+id/button_decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/product_amount_button_min_width"
+            android:text="@string/product_amount_decrease"
+            android:textSize="@dimen/product_amount_button_text"
+            android:textColor="@color/product_amount_button_text"
+            style="@style/Bfc.Button.Inline.Subtle"/>
+
+        <be.appreciate.buttonsforcleaners.views.EditText
+            android:id="@+id/editText_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/md_content_textsize"
+            tools:ignore="TextFields" />
+
+        <be.appreciate.buttonsforcleaners.views.Button
+            android:id="@+id/button_increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/product_amount_button_min_width"
+            android:text="@string/product_amount_increase"
+            android:textSize="@dimen/product_amount_button_text"
+            android:textColor="@color/product_amount_button_text"
+            style="@style/Bfc.Button.Inline.Subtle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Styles used in the app -->
+
+    <style name="Bfc"/>
+
+    <style name="Bfc.AppTheme" parent="AppTheme"/>
+
+    <style name="Bfc.AppTheme.TranslucentStatusBar" parent="AppTheme.TranslucentStatusBar"/>
+
+    <style name="Bfc.TextView" parent="Base.TextView"/>
+
+    <style name="Bfc.TextView.Body" parent="Base.TextView.Body"/>
+
+    <style name="Bfc.TextView.Body.Dark" parent="Base.TextView.Body.Dark"/>
+
+    <style name="Bfc.TextView.Title" parent="Base.TextView.Title"/>
+
+    <style name="Bfc.TextView.FakeEditText" parent="Base.TextView.FakeEditText"/>
+
+    <style name="Bfc.TextView.Caption" parent="Base.TextView.Caption"/>
+
+    <style name="Bfc.TextView.Header" parent="Base.TextView.Header"/>
+
+    <style name="Bfc.Button" parent="Base.Button"/>
+
+    <style name="Bfc.Button.Inline" parent="Base.Button.Inline"/>
+
+    <style name="Bfc.Button.Inline.Subtle" parent="Base.Button.Inline.Subtle"/>
+
+    <!-- App theme -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/general_primary</item>
+        <item name="colorPrimaryDark">@color/general_primary_dark</item>
+        <item name="colorAccent">@color/general_accent</item>
+        <item name="textColorError">@color/general_text_error</item>
+        <item name="android:windowBackground">@color/general_window_background</item>
+        <item name="android:textViewStyle">@style/Bfc.TextView</item>
+        <item name="buttonStyle">@style/Bfc.Button</item>
+    </style>
+
+    <style name="AppTheme.TranslucentStatusBar"/>
+
+    <!-- Base styles -->
+
+    <style name="Base"/>
+
+    <style name="Base.TextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:textSize">@dimen/text</item>
+    </style>
+
+    <style name="Base.TextView.Body">
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+    </style>
+
+    <style name="Base.TextView.Body.Dark">
+        <item name="android:textColor">@color/general_text_dark</item>
+        <item name="typeface">medium</item>
+    </style>
+
+    <style name="Base.TextView.Title">
+        <item name="android:textColor">@color/general_text_dark</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:paddingBottom">@dimen/text_title_padding_bottom</item>
+        <item name="typeface">medium</item>
+    </style>
+
+    <style name="Base.TextView.FakeEditText">
+        <item name="android:textColor">@color/general_text_dark</item>
+        <item name="android:textSize">@dimen/text_edit</item>
+        <item name="android:paddingBottom">@dimen/text_fake_edit_padding_bottom</item>
+    </style>
+
+    <style name="Base.TextView.Caption">
+        <item name="android:paddingBottom">@dimen/text_padding_bottom</item>
+        <item name="android:textColor">@color/general_text_dark</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+    </style>
+
+    <style name="Base.TextView.Header">
+        <item name="android:paddingBottom">@dimen/text_header_padding_bottom</item>
+        <item name="android:textColor">@color/general_primary</item>
+        <item name="android:textSize">@dimen/text_header</item>
+    </style>
+
+    <style name="Base.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/general_button_text</item>
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:minWidth">@dimen/general_button_min_width</item>
+        <item name="android:minHeight">@dimen/general_button_min_height</item>
+        <item name="android:paddingLeft">@dimen/general_button_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/general_button_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/general_button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/general_button_padding_vertical</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Base.Button.Inline">
+        <item name="android:textColor">@color/general_button_inline_text</item>
+        <item name="android:background">@drawable/selector_button_inline</item>
+        <item name="android:paddingLeft">@dimen/general_button_inline_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/general_button_inline_padding_horizontal</item>
+    </style>
+
+    <style name="Base.Button.Inline.Subtle">
+        <item name="android:textColor">@color/general_button_inline_subtle_text</item>
+        <item name="android:background">@drawable/selector_button_inline_subtle</item>
+    </style>
+
+</resources>

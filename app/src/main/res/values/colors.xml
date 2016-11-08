@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="general_primary">#009fe3</color>
+    <color name="general_primary_dark">#008dc9</color>
+    <color name="general_primary_light">#E8F2F6</color>
+    <color name="general_accent">#FFC107</color>
+    <color name="general_text">#8A222222</color>
+    <color name="general_text_dark">#DE222222</color>
+    <color name="general_text_light">#FFF</color>
+    <color name="general_text_error">#e90243</color>
+    <color name="general_window_background">#FFF</color>
+    <color name="general_divider">#1F222222</color>
+    <color name="general_image_border">@color/general_divider</color>
+
+    <color name="general_list_background">@color/general_window_background</color>
+    <color name="general_list_background_pressed">@color/general_primary_light</color>
+    <color name="general_list_background_selected">@color/general_primary_light</color>
+    <color name="general_list_ripple">@color/general_primary_light</color>
+
+    <color name="general_button_background">@color/general_accent</color>
+    <color name="general_button_background_pressed">#E5AE09</color>
+    <color name="general_button_text">@color/general_text_light</color>
+
+    <color name="general_button_inline_background">@color/general_window_background</color>
+    <color name="general_button_inline_background_pressed">#66FFC107</color>
+    <color name="general_button_inline_text">@color/general_accent</color>
+    <color name="general_button_inline_subtle_background">#0000</color>
+    <color name="general_button_inline_subtle_background_pressed">#1F222222</color>
+    <color name="general_button_inline_subtle_text">@color/general_text</color>
+
+    <color name="navigation_header_background">@color/general_accent</color>
+    <color name="navigation_item_icon">#8A222222</color>
+    <color name="navigation_synchronised">#54c75d</color>
+    <color name="navigation_not_synchronised">#e90243</color>
+    <color name="navigation_header_text">@color/general_text_light</color>
+
+    <color name="planning_list_item_icon">#e90243</color>
+    <color name="planning_list_item_completed">#54c75d</color>
+
+    <color name="main_menu_icon">#FFF</color>
+
+    <color name="feedback_bottom_bar">#FFF7F7F7</color>
+    <color name="feedback_indicator_page">@color/general_button_inline_subtle_text</color>
+    <color name="feedback_indicator_fill">@color/general_accent</color>
+    <color name="feedback_photo_background">@color/general_accent</color>
+    <color name="feedback_photo_icon">@color/general_text_light</color>
+    <color name="feeback_photo_icon_shadow_start">#7555</color>
+    <color name="feeback_photo_icon_shadow_end">#0555</color>
+    <color name="feedback_signature_line">@color/general_text_dark</color>
+    <color name="feedback_signature_border">@color/general_text_dark</color>
+    <color name="feedback_signature_reset">@color/general_accent</color>
+    <color name="feedback_product_background">@color/general_accent</color>
+    <color name="feedback_product_delete_icon">@color/general_text</color>
+    <color name="feedback_product_add_icon">@color/general_text_light</color>
+
+    <color name="product_amount_button_text">@color/general_text_dark</color>
+
+</resources>

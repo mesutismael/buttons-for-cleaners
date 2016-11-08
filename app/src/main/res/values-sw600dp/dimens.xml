@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="detail_fab_margin">24dp</dimen>
+    <dimen name="detail_padding_bottom">104dp</dimen> <!-- detail_fab + 2 * detail_fab_margin -->
+
+    <dimen name="splash_logo_width">500dp</dimen>
+
+    <dimen name="login_logo_width">360dp</dimen>
+
+</resources>

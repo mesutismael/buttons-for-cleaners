@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/detail_padding_bottom"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:divider="@drawable/shape_divider_vertical"
+                android:showDividers="middle">
+
+                <LinearLayout
+                    android:id="@+id/layout_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_time_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_dateTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_time_date"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Donderdag 25 februari"
+                        style="@style/Bfc.TextView.Body"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_startTimeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_time_start"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="09:00"
+                        style="@style/Bfc.TextView.Body"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_endTimeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_time_end"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="11:00"
+                        style="@style/Bfc.TextView.Body"/>
+
+                    <be.appreciate.buttonsforcleaners.views.Button
+                        android:id="@+id/button_notify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_time_notify"
+                        style="@style/Bfc.Button.Inline"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_general"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_general_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_descriptionTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_general_description"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Werk in extra"
+                        style="@style/Bfc.TextView.Body"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_addressTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_general_address"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Bellevue 5, 9050 Ledeberg"
+                        style="@style/Bfc.TextView.Body"/>
+
+                    <be.appreciate.buttonsforcleaners.views.Button
+                        android:id="@+id/button_navigation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_general_route"
+                        style="@style/Bfc.Button.Inline"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_remarks_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_instructionsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_remarks_instructions"
+                        style="@style/Bfc.TextView.Body.Dark"/>
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:id="@+id/textView_instructions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Clean until it's clean"
+                        style="@style/Bfc.TextView.Body"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:divider="@drawable/shape_divider_vertical"
+                android:showDividers="middle">
+
+                <LinearLayout
+                    android:id="@+id/layout_people"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_people_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_vehicles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_vehicles_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_materials"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_materials_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_extra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/general_list_padding"
+                    android:paddingBottom="@dimen/general_list_padding"
+                    android:paddingLeft="@dimen/general_fragment_padding"
+                    android:paddingRight="@dimen/general_fragment_padding">
+
+                    <be.appreciate.buttonsforcleaners.views.TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_extra_header"
+                        style="@style/Bfc.TextView.Header"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <be.appreciate.buttonsforcleaners.views.Button
+        android:id="@+id/button_startStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/detail_button_margin"
+        android:text="@string/detail_start"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>

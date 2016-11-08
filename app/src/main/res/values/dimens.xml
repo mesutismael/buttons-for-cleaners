@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="general_divider">1dp</dimen>
+    <dimen name="general_fragment_padding">16dp</dimen>
+    <dimen name="general_list_padding">16dp</dimen>
+    <dimen name="general_content_max_width">600dp</dimen>
+    <dimen name="general_drawer_width">300dp</dimen>
+    <dimen name="general_image_border">1dp</dimen>
+
+    <dimen name="general_button_min_width">88dp</dimen>
+    <dimen name="general_button_min_height">36dp</dimen>
+    <dimen name="general_button_padding_horizontal">24dp</dimen>
+    <dimen name="general_button_padding_vertical">8dp</dimen>
+    <dimen name="general_button_corners">2dp</dimen>
+    <dimen name="general_button_inline_padding_horizontal">8dp</dimen>
+
+    <dimen name="navigation_header_image">72dp</dimen>
+    <dimen name="navigation_header_padding">16dp</dimen>
+    <dimen name="navigation_header_padding_top">16dp</dimen>
+
+    <dimen name="text">14sp</dimen>
+    <dimen name="text_edit">18sp</dimen>
+    <dimen name="text_button">14sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_header">12sp</dimen>
+    <dimen name="text_padding_bottom">6dp</dimen>
+    <dimen name="text_title_padding_bottom">18dp</dimen>
+    <dimen name="text_fake_edit_padding_bottom">12dp</dimen>
+    <dimen name="text_header_padding_bottom">18dp</dimen>
+
+    <dimen name="detail_fab">56dp</dimen>
+    <dimen name="detail_button_margin">16dp</dimen>
+    <dimen name="detail_padding_bottom">52dp</dimen> <!-- general_button_min_height + detail_button_margin -->
+
+    <dimen name="splash_logo_width">280dp</dimen>
+    <dimen name="splash_progress_margin_top">24dp</dimen>
+
+    <dimen name="login_logo_width">280dp</dimen>
+    <dimen name="login_logo_margin_bottom">16dp</dimen>
+
+    <dimen name="location_permission_content_padding">40dp</dimen>
+    <dimen name="location_permission_button_margin_top">12dp</dimen>
+
+    <dimen name="text_settings_content_padding">@dimen/location_permission_content_padding</dimen>
+    <dimen name="text_settings_button_margin_top">@dimen/location_permission_button_margin_top</dimen>
+
+    <dimen name="planning_list_item_alert">32dp</dimen>
+    <dimen name="planning_list_empty_image_width">160dp</dimen>
+    <dimen name="planning_list_empty_image_margin_bottom">16dp</dimen>
+
+    <dimen name="planning_detail_resource_icon">40dp</dimen>
+    <dimen name="planning_detail_resource_icon_margin_right">16dp</dimen>
+    <dimen name="planning_detail_resource_padding_vertical">8dp</dimen>
+
+    <dimen name="feedback_indicator_page_radius">3dp</dimen>
+    <dimen name="feedback_indicator_fill_radius">6dp</dimen>
+    <dimen name="feedback_indicator_stroke">0dp</dimen>
+    <dimen name="feedback_list_max_width">300dp</dimen>
+    <dimen name="feedback_list_item_padding">8dp</dimen> <!-- general_list_padding / 2 -->
+    <dimen name="feedback_list_padding">8dp</dimen> <!-- general_list_padding - feedback_list_item_padding -->
+    <dimen name="feedback_photo">160dp</dimen>
+    <dimen name="feedback_photo_corners">@dimen/general_button_corners</dimen>
+    <dimen name="feedback_photo_icon">48dp</dimen>
+    <dimen name="feedback_photo_icon_padding">6dp</dimen>
+    <dimen name="feedback_signature_border">@dimen/general_divider</dimen>
+    <dimen name="feedback_signature_corners">@dimen/general_button_corners</dimen>
+    <dimen name="feedback_signature_reset">48dp</dimen>
+    <dimen name="feedback_signature_reset_padding">6dp</dimen>
+    <dimen name="feedback_product_icon">40dp</dimen>
+    <dimen name="feedback_product_spacing">16dp</dimen>
+    <dimen name="feedback_product_delete">40dp</dimen>
+    <dimen name="feedback_product_delete_padding">6dp</dimen>
+    <dimen name="feedback_product_amount_width">48dp</dimen>
+
+    <dimen name="product_icon">40dp</dimen>
+    <dimen name="product_icon_margin_right">16dp</dimen>
+    <dimen name="product_divider_padding_left">72dp</dimen> <!-- general_list_padding + product_icon + product_icon_margin_right -->
+    <dimen name="product_amount_button_min_width">@dimen/general_button_min_height</dimen>
+    <dimen name="product_amount_button_text">16sp</dimen>
+
+</resources>

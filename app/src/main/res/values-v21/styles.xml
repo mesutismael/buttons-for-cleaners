@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Bfc.AppTheme.TranslucentStatusBar" parent="AppTheme.TranslucentStatusBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Bfc.Button.Inline" parent="Base.Button.Inline">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+</resources>

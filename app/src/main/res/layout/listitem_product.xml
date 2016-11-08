@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/general_list_padding"
+    android:gravity="center_vertical"
+    android:background="@drawable/selector_list">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageView_icon"
+        android:layout_width="@dimen/product_icon"
+        android:layout_height="@dimen/product_icon"
+        android:layout_marginRight="@dimen/product_icon_margin_right"
+        app:riv_oval="true"
+        app:riv_border_color="@color/general_image_border"
+        app:riv_border_width="@dimen/general_image_border"/>
+
+    <be.appreciate.buttonsforcleaners.views.TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Bfc.TextView.Body.Dark"/>
+
+</LinearLayout>
